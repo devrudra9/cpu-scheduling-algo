@@ -11,12 +11,11 @@ To view a live example, **[click here](https://cpu-scheduling-algo.netlify.app/)
 - **More Algorithms**: You can add more scheduling algorithms too.
 - **Results Showcase**: Display your average time results and throughput more efficiently.
 - **Number of processes**: You can fix the number of processes for any Scheduling Algorithms.
-- **Skills and Services**: Showcase your skills and services to highlight what you can offer.
 - **Other Sections**: You can make new about sections in the navbar to display the use of different algorithms in the CPU.
 - **and many more...**
 
 
-If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/devrudra9/cpu-scheduling-algo/issues) or feel free to create an issue that helps to make the website more batter.
+If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/devrudra9/cpu-scheduling-algo/issues) or feel free to create an issue that helps to make the website more better.
 
 
 ## 💻 Tech Stack
