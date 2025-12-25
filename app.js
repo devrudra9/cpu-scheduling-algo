@@ -12,7 +12,6 @@ $(document).ready(
             }
         });
 
-
         var processList = [];
 
         $('#btnAddProcess').on('click', function () {
