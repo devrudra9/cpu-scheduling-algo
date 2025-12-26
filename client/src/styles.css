@@ -1,0 +1,12 @@
+/* Ported styles from original project */
+.buttonAlgo{
+    border-radius: 15px !important;
+    width: 70px;
+}
+
+#timeQuantum{
+  width: 80px;
+}
+
+/* Add small spacing used by Angular components */
+.container { padding-top: 1rem; }

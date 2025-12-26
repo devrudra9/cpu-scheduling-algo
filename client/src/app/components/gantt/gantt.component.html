@@ -1,0 +1,8 @@
+<div>
+  <h3>Gantt Chart</h3>
+  <div *ngIf="!timeline">No schedule timeline available. Run scheduler to generate timeline.</div>
+  <div *ngIf="timeline">
+    <pre>{{ timeline | json }}</pre>
+  </div>
+</div>
+
