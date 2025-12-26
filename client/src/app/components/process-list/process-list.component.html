@@ -1,0 +1,31 @@
+<table class="table table-bordered" id="tblProcessList">
+  <thead>
+    <tr>
+      <th scope="col">Process ID</th>
+      <th scope="col">Arrival Time</th>
+      <th scope="col">Burst Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of processes">
+      <td>{{p.processID}}</td>
+      <td>{{p.arrivalTime}}</td>
+      <td>{{p.burstTime}}</td>
+    </tr>
+  </tbody>
+</table>
+<div class="row">
+  <div class="col">
+    <input class="form-control mb-2" type="number" min="0" [(ngModel)]="processID" placeholder="Process ID">
+  </div>
+  <div class="col">
+    <input class="form-control mb-2" type="number" min="0" [(ngModel)]="arrivalTime" placeholder="Arrival Time">
+  </div>
+  <div class="col">
+    <input class="form-control mb-2" type="number" min="0" [(ngModel)]="burstTime" placeholder="Burst Time">
+  </div>
+  <div class="col">
+    <button class="btn btn-primary" (click)="addProcess()">Add Process</button>
+  </div>
+</div>
+

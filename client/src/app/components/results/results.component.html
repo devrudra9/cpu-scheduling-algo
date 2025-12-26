@@ -1,0 +1,8 @@
+<div>
+  <h3>Results</h3>
+  <div *ngIf="!result">No results yet. Run the scheduler to see results here.</div>
+  <div *ngIf="result">
+    <pre>{{ result | json }}</pre>
+  </div>
+</div>
+
